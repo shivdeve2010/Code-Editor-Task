@@ -23,8 +23,6 @@ export default function Editor(props) {
   }
   const handleCopy = () => {
     // navigator.clipboard.writeText(text);
-    console.log("copy");
-    console.log(value);
 
     navigator.clipboard.writeText(value);
 }
